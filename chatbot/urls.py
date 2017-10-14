@@ -8,5 +8,6 @@ urlpatterns = [
     # url(r'^blog/', include('blog.urls')),
 
     url(r'^keyboard/', 'meal.views.keyboard'),
+    url(r'^message', 'meal.views.answer'),
 
 ]
